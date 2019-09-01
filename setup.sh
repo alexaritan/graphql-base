@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 echo "Removing association with Github repo"
-rm -rf ./.git
+#rm -rf ./.git
 
 echo "Adding up-to-date dependencies"
 yarn add graphql-yoga nodemon eslint
