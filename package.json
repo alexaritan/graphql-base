@@ -1,0 +1,19 @@
+{
+  "name": "graphql-base",
+  "version": "0.0.1",
+  "description": "A hello world GraphQL API that I can base future ones off of.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexaritan/graphql-base.git"
+  },
+  "author": "Alex Aritan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexaritan/graphql-base/issues"
+  },
+  "homepage": "https://github.com/alexaritan/graphql-base#readme"
+}
