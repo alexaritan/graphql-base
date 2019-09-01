@@ -1,6 +1,6 @@
 "use strict";
 
-export const User = {
+const User = {
   favoriteTeams(parent, args, context, info){
     const teams = context.data.teams;
     const favoriteTeamsIdsSet = new Set(parent.favoriteTeams);
@@ -12,3 +12,5 @@ export const User = {
     return favTeams;
   }
 };
+
+export default User;

@@ -4,6 +4,8 @@
   "description": "A hello world GraphQL API that I can base future ones off of.",
   "main": "src/app.js",
   "scripts": {
+    "build": "babel src -d lib",
+    "start": "nodemon src/app.js -e js,graphql,prisma --exec babel-node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
