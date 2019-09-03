@@ -1,6 +1,6 @@
 type Query {
   users(id: ID): [User!]!
-  teams: [Team!]!
+  teams(id: ID): [Team!]!
 }
 
 type User {

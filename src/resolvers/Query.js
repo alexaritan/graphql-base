@@ -10,9 +10,18 @@ const Query = {
       }
       return [];
     }
-    else{
-      return data.users;
+    return data.users;
+  },
+  teams(parent, args, context, info){
+    const {id} = args;
+    const {data} = context;
+    if(id){
+      for(const team of data.teams){
+        if(team.id === id) return [team];
+      }
+      return [];
     }
+    return data.teams;
   }
 };
 
